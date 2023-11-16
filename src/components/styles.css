@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #1d1c1c;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+span {
+    color: orange;
+}
+
+.input-field, .drop-down-btn {
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-left: 10px;
+    border: none;
+    color: rgb(75, 58, 58);
+    width: 300px;
+}
+
+.drop-down-btn {
+    text-align: center;
+    color: white;
+    background-color: orange;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.drop-down-btn:hover {
+    background-color: rgb(104, 69, 5);
+    color: rgb(230, 200, 146);
+}
+
+section {
+    display: flex;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.movie-img {
+    width: 25%;
+    height: 200px;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+}
+
+.movie-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.movie-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 10px;
+    background-color: #1d1c1c;
+    border-radius: 0 10px 10px 0;
+    width: 70%;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 65px 20px 0;
+}
+
+.aside {
+    background-color: #1d1c1c;
+    position: fixed;
+    top: 65px;
+    right: 25px;
+    padding: 7px 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+aside p {
+    margin-bottom: 5px;
+}
+
+#addMovieForm {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    background: rgba(10, 10, 10, 0.8);
+    border-radius: 0 0 10px 10px;
+}
+
+#addMovieForm input {
+    padding: 5px 10px;
+    border: none;
+    color: rgb(70, 41, 41);
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#addMovieForm label {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+#submit-btn {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    margin: 5px auto;
+    font-size: 18px;
+    width: 80%;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: rgb(104, 69, 5);
+    color: rgb(230, 200, 146);
+}
