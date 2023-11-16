@@ -18,7 +18,14 @@ const onChange = (e) => {
 
 const handleSubmit = (event) => {
     event.preventDefault();
-    addMovie(inputValue)
+    addMovie(inputValue);
+    setInputValue({
+    title: "",
+    type: "",
+    description: "",
+    rating: 0,
+    posterURL: ""
+    })
 }
 
     return (

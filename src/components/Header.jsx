@@ -17,6 +17,6 @@ const Header = ({prop, movieDropDownBtn}) => {
 }
 
 //{prop} is a component
-//{movieDropDownBtn} is a function
+//{movieDropDownBtn} is a function... this function is used to toggle the state of this container when clicked and consequently used to toggle active/inactive class on the AddMovie component in App.Js
 
 export default Header;

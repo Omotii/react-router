@@ -82,10 +82,11 @@ const addNewMovie = (newMovie) => {
     setMovie( prev => ([...prev, newMovie]));
 }
 
+// the below function toggles the state of the click to add movie container at the top right of the header section
+
 const addMoviedropDownBtn = () => {
   (setOpen(!open))
 }
-console.log(open)
 
   return (
     <div className="App">

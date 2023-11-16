@@ -99,7 +99,7 @@ aside p {
     display: flex;
     flex-direction: column;
     padding: 10px 15px;
-    background: rgba(10, 10, 10, 0.8);
+    background: rgba(10, 10, 10, 0.9);
     border-radius: 0 0 10px 10px;
 }
 
@@ -115,6 +115,7 @@ aside p {
 #addMovieForm label {
     font-size: 18px;
     color: rgb(255, 255, 255);
+    text-shadow: 1.5px 1.5px 6px black;
 }
 
 #submit-btn {
