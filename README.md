@@ -1,9 +1,3 @@
-In this Movie App, users can search music by it Title or Rating.
+This is simply a modification of the earlier Movie App
 
-A user can also add movie by clicking on the 'Click to add Movie' button at the top right hand side of the application.
-
-The movies are displayed and wrap with flex.
-
-An aside bar is created to help a user glance through all available movies in the app.
-Also, when a movie is added, it is automatically added to the available movies bar.
-Note that in this bar, all movie are sorted alphabetically and not in sequence of their appearance on the main movie card.
+* Movie Trailer page added together with its description and a link back home
